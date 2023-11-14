@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+    
+        #div1:target{ background-color: rgb(255,255,0);}
+        #div2:target{	background-color: rgb(255,255,0); border: 10px dotted green;}
+			
+        a#link1:link {
+           color: blue;
+           background-color: lightyellow;
+           text-decoration: none;
+        }
+
+        a#link1:visited {
+           color: purple;
+           background-color: lightyellow;
+        }
+
+
+        a#link1:hover {
+            color: white;
+            background-color: darkblue;
+        }
+
+        a#link1:active {
+            color: red;
+            background-color: yellow;
+			
+        }
+
+
+        a#link2:link {
+            color: green;
+            background-color: lightyellow;
+            text-decoration: none;
+        }
+
+        a#link2:hover {
+            color: white;
+            background-color: darkblue;
+        }
+
+        a#link2:active {
+            color: orange;
+            background-color: lightblue;
+        }
+
+        a#link2:visited {
+            color: brown;
+            background-color: khaki;
+        }
+
+        div#div1 {
+            width: 200px;
+            height: 100px;
+            background-color: cyan;
+            margin-bottom: 10px;
+        }
+
+        div#div2 {
+            width: 200px;
+            height: 100px;
+            background-color: cyan;
+        }
+        
+
+        div#div2:active {
+            width: 200px;
+            height: 100px;
+            background-color: cyan;
+			border: 10px dotted green;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <a href="#div1" id="link1">Link 1</a>
+    <a href="#div2" id="link2">Link 2</a><br>
+    <div id="div1">Div 1</div>
+    <br>
+    <div id="div2">Div 2</div>
+
+</body>
+
+</html>
+
